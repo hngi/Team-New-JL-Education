@@ -165,6 +165,12 @@ footer .contact-sm {
   display: none;
 }
 
+footer a:hover {
+  color: var(--secondary-color);
+  opacity: 1;
+  transition: 1s;
+}
+
 
 
 /* ==========================================================================================

@@ -225,6 +225,10 @@ h3 { font-size: 32px; }
   display: none;
 }
 
+.partners div.partners-lg.container {
+  padding-top: 1.5rem;
+}
+
 
 /* ==========================================================================================
                                       Responsiveness
