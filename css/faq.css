@@ -104,12 +104,10 @@ header nav .btn a {
 .jumbotron {
     height: 420px;
     background-color: #e5e5e5;
-}
-
-#banner #question {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-
+    background: url('img/dave.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #banner #question #mainQuest {
@@ -166,6 +164,10 @@ h6 {
 #support #mainfaq #faqs {
     grid-row: 1/2;
     grid-column: 1/4;
+}
+
+#support #mainfaq #faqs #mobile {
+    display: none;
 }
 
 #support #mainfaq #faqs p {
@@ -377,5 +379,32 @@ textarea {
         grid-column: 1/13;
         border: none;
         border-radius: 8px;
+    }
+
+    #support #mainfaq #faqs #mobile {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #support #mainfaq #faqs #mobile ul {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #support #mainfaq #faqs #mobile li.active h6 {
+        border-bottom: 3px solid #05b169;
+        border-radius: 0 !important;
+    }
+
+    #support #mainfaq #faqs #mobile li {
+        list-style-type: none;
+        display: inline-block;
+        border: none;
+    }
+
+    #support #mainfaq #faqs #desktop {
+        display: none;
     }
 }
