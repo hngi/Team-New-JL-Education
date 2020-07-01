@@ -27,10 +27,6 @@ body {
     border-radius: 15px;
 }
 
-#wrapper header select {
-    border: none;
-}
-
 #wrapper header nav li img {
     width: 30px;
     height: 30px;
@@ -46,7 +42,6 @@ body {
 #wrapper header .navbar {
     padding: 0;
 }
-
 
 #wrapper header nav #navbarNav {
     background-color: #fff !important;
@@ -200,11 +195,6 @@ header .btn:hover {
     font-weight: normal;
 }
 
-#wrapper main #right #courses img {
-    width: 369px;
-    height: 179px;
-}
-
 #wrapper main #right #freecourses {
     grid-row: 3/4;
     grid-column: 1/13;
@@ -212,7 +202,6 @@ header .btn:hover {
 
 
 #wrapper main #right #freecourses #grouped {
-
     border-radius: 8px;
 }
 
