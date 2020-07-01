@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+#wrapper nav #hiddenLogo {
+    display: none;
+}
+
 #wrapper header input {
     border-radius: 15px;
 }
@@ -289,7 +293,47 @@ span {
     font-weight: normal;
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width:1054px) {
+    #wrapper header {
+        background-color: #fff !important;
+    }
+
+    #wrapper main aside {
+        display: none;
+    }
+
+    #wrapper main #welcome {
+        grid-row: 1/2;
+        grid-column: 1/13;
+
+    }
+
+    #wrapper main #right {
+        grid-row: 2/3;
+        grid-column: 1/13;
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    #wrapper header nav #navbarNav {
+        background-color: #fff !important;
+        grid-column: 8/13;
+    }
+
+    #wrapper header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 3% !important;
+    }
+
+    #wrapper nav #hiddenLogo {
+        display: inline-block;
+    }
+
+    #wrapper main #welcome {
+        padding: 3% !important;
+    }
+
     #wrapper main aside {
         display: none;
     }
@@ -319,5 +363,59 @@ span {
         grid-row: 1/2;
         grid-column: 1/12;
         padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #wrapper main #right #overview .topProgress {
+        display: block;
+
+    }
+
+    #wrapper main #right #overview {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    #wrapper main #right #overview .topProgress #second {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #wrapper main #right #courses #grouped .summaryCourse {
+        display: block;
+    }
+
+    #wrapper main #right #courses #grouped .summaryCourse .buttonType {
+        margin-top: 5%;
+    }
+
+    #wrapper main #right #freecourses #grouped .summaryCourse {
+        display: block;
+    }
+
+    #wrapper main #right #freecourses #grouped .summaryCourse .buttonType {
+        margin-top: 5%;
+    }
+
+    #wrapper header nav #navbarNav {
+        background-color: #fff !important;
+        grid-column: 8/13;
+    }
+
+    #wrapper header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 3% !important;
+    }
+
+    #wrapper nav #hiddenLogo {
+        display: inline-block;
+    }
+
+    #wrapper main #welcome {
+        padding: 3% !important;
     }
 }
