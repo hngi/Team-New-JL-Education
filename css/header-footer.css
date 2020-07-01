@@ -171,6 +171,12 @@ footer .contact-sm {
                                       Responsiveness
 ========================================================================================== */
 
+@media (max-width: 991px) {
+  footer .navigation {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   header nav .btn {
     margin-top: 1rem !important;
@@ -200,6 +206,10 @@ footer .contact-sm {
 
   footer .navigation {
     display: none;
+  }
+
+  footer .row .col-md-3 a {
+    margin-right: 1rem;
   }
 }
 

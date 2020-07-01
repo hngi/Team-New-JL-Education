@@ -60,6 +60,7 @@ h3 { font-size: 32px; }
 .section-title {
   font-weight: bold !important;
   color: #000;
+  font-size: 18px !important;
 }
 
 /* Section - Hero */
@@ -229,14 +230,20 @@ h3 { font-size: 32px; }
                                       Responsiveness
 ========================================================================================== */
 
+@media (max-width: 991px) {
+  .hero h1 {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .hero p {
+    line-height: 1.5;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: var(--font-body-size);
-  }
-
-  .hero h1 {
-    font-size: 30px;
-    line-height: 1.5;
   }
 
   .category .row .col-md p,
