@@ -136,6 +136,9 @@ header div .overlay {
 
 /* Section - About us intro
    ============================= */
+.sectioning {
+  margin-top: 40px;
+}
 section {
   min-height: 300px;
 }
@@ -150,6 +153,16 @@ p.normal-text {
   text-align: center;
   max-width: 85ch;
   margin: auto;
+}
+
+div .instructor {
+  margin-top: 15px;
+  color: #1652f0;
+  font-weight: bold;
+}
+span .fa-arrow-right {
+  margin-left: 10px;
+  color: #1652f0;
 }
 
 /* Section - Mission
@@ -230,16 +243,39 @@ h2.about-text {
   justify-content: center;
   margin: auto;
 }
-
 .about-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 105px;
+  margin-bottom: -110px;
+}
+
+.smilingman {
+  position: absolute;
   width: 160px;
   height: 160px;
   border-radius: 100px;
   padding-bottom: 0px;
-  margin-left: 110px;
-  margin-bottom: -80px;
+  /* margin-left: 100px; */
+  margin-top: 0px;
+  background-image: url("/img/smiling-man.jpg");
+  background-size: cover;
+  background-position: center right;
+  background-clip: padding-box;
 }
-
+.young {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  padding-bottom: 0px;
+  /* margin-left: 110px; */
+  margin-bottom: 80px;
+  background-image: url("/img/young.jpeg");
+  background-size: cover;
+  background-position: top center;
+  background-clip: padding-box;
+}
 .about-head {
   padding-top: 77px;
   font-family: Poppins;
@@ -391,9 +427,11 @@ footer .logo img:hover {
   }
   .about-img {
     width: 50%;
-    /* height: 160px; */
-    margin-left: 10px;
+    height: 160px;
+    margin-left: 70px;
+    margin-bottom: -80px;
   }
+
   .aboutimg {
     margin-left: 65px;
   }
