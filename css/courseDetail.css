@@ -323,9 +323,7 @@ section#photoshop .rowBorder small {
 
 
 @media screen and (max-width:600px) {
-    * {
-        font-size: 16px !important;
-    }
+
 
     .jumbotron {
         height: 203px;
